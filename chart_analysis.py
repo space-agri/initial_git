@@ -12,7 +12,7 @@ import talib as ta
 
 
 #株価情報を取得する関数定義(Open,High,Low,Close,Volume)
-#米国の株価情報を取得する場合は、17行目を'US'に変える
+#米国の株価情報を取得する場合は、17行目を'US'に変換
 def get_stock_data(code):
     df = pdr.DataReader('{}.JP'.format(code), 'stooq').sort_index()
     return df
