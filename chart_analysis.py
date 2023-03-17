@@ -172,6 +172,6 @@ fig.update_layout({
 #表示
 fig.show()
 
-#チャートの保存
-# fig.write_image('chart_data/{}_{}_{}.jpg'.format(dt.date.today(), brand_name, code), engine="kaleido")
-fig.write_html('chart_data/{}_{}_{}.html'.format(dt.date.today(), brand_name, code))
+# #チャートの保存
+# # fig.write_image('chart_data/{}_{}_{}.jpg'.format(dt.date.today(), brand_name, code), engine="kaleido")
+# fig.write_html('chart_data/{}_{}_{}.html'.format(dt.date.today(), brand_name, code))
